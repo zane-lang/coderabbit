@@ -8,3 +8,7 @@ reviews:
     base_branches:
       - ".*"
     auto_incremental_review: false
+  # cubic writes the PR summary, so CodeRabbit leaves it out.
+  high_level_summary: false
+  changed_files_summary: false
+  sequence_diagrams: false
