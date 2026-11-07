@@ -12,3 +12,8 @@ reviews:
   high_level_summary: false
   changed_files_summary: false
   sequence_diagrams: false
+  pre_merge_checks:
+    # CodeRabbit does not count the OCaml `(* ... *)` comments above our
+    # functions as docstrings, so this check misfires on nearly every PR.
+    docstrings:
+      mode: "off"
