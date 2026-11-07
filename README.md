@@ -9,10 +9,10 @@ pull requests here.
 
 [`.coderabbit.yaml`](.coderabbit.yaml) applies to every repository in the
 organization that has no `.coderabbit.yaml` of its own. It reviews every pull
-request that is not a draft, against any base branch, once when it opens; a
-new review is asked for with a `@coderabbitai review` comment. CodeRabbit
-writes no pull request summary, since another bot does, and its docstring
-check is off. The comments in the file say why each setting is there.
+request that is not a draft, against any base branch, once when it opens;
+comment `@coderabbitai review` to ask for another. Its high-level summary and
+changed-files summary are off, since another bot writes the pull request
+summary, and so is its docstring check. The comments in the file say why each setting is there.
 
 To change a setting, edit `.coderabbit.yaml` in a pull request here. The
 [configuration reference](https://docs.coderabbit.ai/reference/configuration)
