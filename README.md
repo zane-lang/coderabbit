@@ -12,7 +12,7 @@ organization that has no `.coderabbit.yaml` of its own. It reviews every pull
 request that is not a draft, against any base branch, once when it opens;
 comment `@coderabbitai review` to ask for another. Its high-level summary and
 changed-files summary are off, since another bot writes the pull request
-summary, and so is its docstring check. The comments in the file say why each setting is there.
+summary, and so is its docstring check. Comments in the file give the reasons for some settings.
 
 To change a setting, edit `.coderabbit.yaml` in a pull request here. The
 [configuration reference](https://docs.coderabbit.ai/reference/configuration)
